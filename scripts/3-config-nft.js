@@ -3,7 +3,7 @@ import { readFileSync } from "fs";
 
 (async () => {
   try {
-    const editionDrop = await sdk.getContract("INSERT_EDITION_DROP_ADDRESS", "edition-drop");
+    const editionDrop = await sdk.getContract("0xA709A7b8F2275F8767bd7a2867Eca3dBB59a3f5c", "edition-drop");
     await editionDrop.createBatch([
       {
         name: "Next Gen Builder",
