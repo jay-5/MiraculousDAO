@@ -175,7 +175,7 @@ const App = () => {
                   <div>
                     <h3>Voting</h3>
                     {/* If there are no proposals, show a button to create one */}
-                    {!proposals.length && (
+                    {proposals.length && (
                       <div>
                         <button onClick={createProposal}>Create Proposal</button>
                       </div>
